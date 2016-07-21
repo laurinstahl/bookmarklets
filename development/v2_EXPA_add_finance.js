@@ -1,0 +1,1 @@
+var link = 'https://finance.aiesec.de';

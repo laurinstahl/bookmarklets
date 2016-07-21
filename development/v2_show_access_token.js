@@ -4,6 +4,7 @@ javascript: (function(){
 	Utils.securityToken=null;
 	Utils.tokenName='expa_token';
 	
+	/*Deklarierung einer Methode, welche das SecurityToken aus den Cookies liest*/
 	Utils.readSecurityToken=function () {
 		var cookieContent;
 		var search_for = Utils.tokenName+"=";
